@@ -7,7 +7,7 @@ const requireSellerAccess = (to, from, next) => {
     if (token && currentUser.isSeller) {
       next();
     } else {
-      next("/client/home");
+      next("/");
     }
   } catch (error) {
     console.error(error);
@@ -19,7 +19,7 @@ const requireAccess = (to, from, next) => {
     if (token) {
       next();
     } else {
-      next("/client/home");
+      next("/");
     }
   } catch (error) {
     console.error(error);
