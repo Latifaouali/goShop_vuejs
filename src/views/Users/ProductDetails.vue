@@ -11,7 +11,7 @@
             <div class="tab-pane active" id="pic-1">
               <img
                 v-if="product && product.picture"
-                :src="`../../products/${product.picture}`"
+                :src="`https://goshop-3bs3.onrender.com/${product.picture}`"
               />
             </div>
           </div>
