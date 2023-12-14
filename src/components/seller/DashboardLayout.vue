@@ -46,7 +46,7 @@
             aria-expanded="false"
           >
             <img
-              :src="`../../user/${user.picture}`"
+              :src="`https://goshop-3bs3.onrender.com/${user.picture}`"
               alt="Profile"
               class="rounded-circle"
             />
