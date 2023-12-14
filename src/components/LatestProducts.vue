@@ -15,7 +15,7 @@
             <div class="overflow-hidden" style="width: 100px; height: 100px">
               <img
                 class="img-fluid"
-                :src="`../../products/${product.picture}`"
+                :src="`https://goshop-3bs3.onrender.com/${product.picture}`"
                 alt=""
               />
             </div>
@@ -40,7 +40,7 @@
             <div class="overflow-hidden" style="width: 100px; height: 100px">
               <img
                 class="img-fluid"
-                :src="`../../products/${product.picture}`"
+                :src="`https://goshop-3bs3.onrender.com/${product.picture}`"
                 alt=""
               />
             </div>
@@ -65,7 +65,7 @@
             <div class="overflow-hidden" style="width: 100px; height: 100px">
               <img
                 class="img-fluid"
-                :src="`../../products/${product.picture}`"
+                :src="`https://goshop-3bs3.onrender.com/${product.picture}`"
                 alt=""
               />
             </div>
