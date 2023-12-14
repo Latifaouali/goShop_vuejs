@@ -1,7 +1,7 @@
 import axios from 'axios';
 import store from '@/store/index'
 const Api=axios.create({
-    baseURL:'https://goshop-iauk.onrender.com'
+    baseURL:'https://goshop-3bs3.onrender.com'
 });
 
 Api.interceptors.request.use((config)=>{
