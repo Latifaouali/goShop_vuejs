@@ -57,7 +57,7 @@
         <span id="tooltiptext">remove from wishlist </span>
       </span>
     </div>
-    <img :src="`../../products/${product.picture}`" class="product-imag" />
+    <img :src="`https://goshop-3bs3.onrender.com/${product.picture}`" class="product-imag" />
     <div class="card-body">
       <div class="card_title">
         <h5>{{ product.name }}</h5>
