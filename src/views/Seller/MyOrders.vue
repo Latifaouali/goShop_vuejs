@@ -91,7 +91,7 @@
                   <td style="display: table-cell">
                     <div class="d-flex align-items-center">
                       <div class="avatar avatar-sm">
-                        <img :src="`../products/${order.productID.picture} `" />
+                        <img :src="`https://goshop-3bs3.onrender.com/${order.productID.picture} `" />
                       </div>
                       <h6 class="fs-sm mb-0 ms-2">
                         {{ order.productID.name }}
@@ -103,7 +103,7 @@
                       <div class="avatar avatar-md">
                         <img
                           class="rounded-circle"
-                          :src="'/user/' + order.userID.picture"
+                          :src="'https://goshop-3bs3.onrender.com/' + order.userID.picture"
                         />
                       </div>
                       <div class="ms-2">
