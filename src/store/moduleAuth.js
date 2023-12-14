@@ -70,6 +70,7 @@ export default {
     },
     logout() {
       localStorage.removeItem("vuex");
+      window.location.href="/";
       location.reload();
     },
   },
