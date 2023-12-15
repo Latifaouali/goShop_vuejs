@@ -44,7 +44,7 @@
             <div class="d-flex flex-start">
               <img
                 class="rounded-circle shadow-1-strong me-3"
-                :src="`https://goshop-3bs3.onrender.com/${review.user.picture}`"
+                :src="`${review.user.picture}`"
                 alt="avatar"
                 width="60"
                 height="60"
