@@ -29,7 +29,7 @@ export default {
         console.log(error);
       }
     },
-    async addProduct({ commit }, productData) {
+    async addProduct({ dispatch,commit }, productData) {
       try {
         const response = await Api.post("/api/products", productData, {
           headers: {
