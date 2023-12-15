@@ -29,7 +29,7 @@ export default {
         console.log(error);
       }
     },
-    async addProduct({ dispatch,commit }, productData) {
+    async addProduct({ commit }, productData) {
       try {
         const response = await Api.post("/api/products", productData, {
           headers: {
@@ -37,7 +37,6 @@ export default {
           },
         });
         if (!response.data) throw new Error("Failed to add product.");
-        await dispatch("moduleSeller/fetchMyProducts", productData.userId);
         commit("SET_ERRORMESSAGE", "");
       } catch (error) {
         if (error.response && error.response.status === 404) {
