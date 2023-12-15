@@ -95,7 +95,7 @@ const errorMessage = computed(
 
 const userData = ref({
   userName: "",
-  picture: "default.png",
+  picture: "https://res.cloudinary.com/drw21nboe/image/upload/v1702634345/acu5dgmhi83iyht4pvfq.jpg",
   email: "",
   address: null,
   phone: null,
