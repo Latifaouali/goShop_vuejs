@@ -181,7 +181,6 @@ const myProducts = computed(() => store.getters["moduleSeller/getMyProducts"]);
 const categories = computed(() => store.getters["getCategory"]);
 const close = () => {
   showModel.value = false;
-  fetchProducts();
 };
 
 const search = ref("");
