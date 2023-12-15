@@ -47,7 +47,7 @@
                     >Profile Image</label
                   >
                   <div class="col-md-8 col-lg-9">
-                    <img :src="`https://goshop-3bs3.onrender.com/${userData.picture}`" alt="Profile" />
+                    <img :src="`${userData.picture}`" alt="Profile" />
                     <div class="pt-2">
                       <input
                         type="file"
