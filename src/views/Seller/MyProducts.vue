@@ -111,7 +111,7 @@
                   <td style="display: table-cell">
                     <div class="d-flex align-items-center">
                       <div class="avatar avatar-sm">
-                        <img :src="`https://goshop-3bs3.onrender.com/${product.picture} `" />
+                        <img :src="`${product.picture} `" />
                       </div>
                       <h6 class="fs-sm mb-0 ms-2">{{ product.name }}</h6>
                     </div>
