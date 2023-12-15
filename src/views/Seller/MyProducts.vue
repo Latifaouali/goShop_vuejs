@@ -219,6 +219,10 @@ const fetchProducts = async () => {
 };
 
 watchEffect(() => {
+    if (myProducts.value) {
+    fetchProducts();
+  }
+  
   if (productRemoved.value) {
     fetchProducts();
     productRemoved.value = false;
