@@ -38,7 +38,6 @@ export default {
         });
         if (!response.data) throw new Error("Failed to add product.");
         commit("SET_ERRORMESSAGE", "");
-        location.reload();
       } catch (error) {
         if (error.response && error.response.status === 404) {
           commit("SET_ERRORMESSAGE", error.response.data.error);
